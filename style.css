@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./mapBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: flex-start;
+    margin: 2em;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: bisque;
+}
+
+.header {
+    border:1/2em;
+    border-style: solid;
+}
+
+.header img {
+    max-width: 10%;
+}
+
+.stats {
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 1em;
+    text-align: left;
+}
+
+.projects {
+    border:1/2em;
+    border-style: solid;
+}
