@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 body {
@@ -14,18 +12,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    justify-content: flex-start;
+    justify-content: center;
     margin: 2em;
 }
 
 .text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-size: large;
     background-color: bisque;
 }
 
 .header {
-    border:1/2em;
+    border: 3px;
     border-style: solid;
 }
 
@@ -34,13 +33,15 @@ body {
 }
 
 .stats {
-    justify-content: flex-end;
     flex-direction: column;
-    padding: 1em;
-    text-align: left;
+    align-items: center;
 }
 
 .projects {
-    border:1/2em;
+    border:3px;
     border-style: solid;
+}
+
+.projects img {
+    max-height: 200px;
 }
