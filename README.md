@@ -1,4 +1,7 @@
-# smu_portfolio
+# personal_portfolio
+
+https://mmorrisonlk.github.io/personal_portfolio/
+
 ![Deployed Site](https://github.com/mmorrisonlk/smu_portfolio/blob/main/portfolio-deployed.png?raw=true "Deployed to the Web")
 
 So my original "brilliant" idea was to base this on a JRPG menu interface. Which is why I went for a paper color for the background and found a creative commons ancient map (JRPGs often have a worldmap on the menu screen). With that in mind I wanted to try and get my portrait to line up with the links so it would call back to an RPG stat block. A bit of a reach I recognize. 
