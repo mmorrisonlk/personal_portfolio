@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <section class="hero is-primary is-small">
+  <section class="hero is-dark is-small">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
       <nav class="navbar">
@@ -24,9 +24,9 @@
               Full Stack Development Portfolio
             </p>
           </div>
-          <div id="navbarMenuHeroA" class="navbar-menu">
+          <div id="navbarMenuHeroA" class="navbar-menu is-active">
             <div class="navbar-end">
-              <a class="navbar-item is-active">
+              <a class="navbar-item">
                 About
               </a>
               <a class="navbar-item">
@@ -36,7 +36,7 @@
                 Contact
               </a>
               <span class="navbar-item">
-                <a class="button is-primary is-inverted">
+                <a class="button is-primary is-inverted" onclick="window.location.href='https://github.com/mmorrisonlk/';">
                   <span class="icon">
                     <i class="fa fa-github" aria-hidden="true"></i>
                   </span>
@@ -49,16 +49,27 @@
       </nav>
     </div>
   </section>
-
-    <!-- <div id="aboutMe" class="flex text projects">
-        <p>
-            Hello! My name is Mark Morrison and I have been a teacher and pharmacy technician. Now I want to try another new career so I'm learning to code!
-        </p>
-    </div> -->
+  <div class= "columns">
+    <div class="column is-2 is-offset-1">
+      <h1 class="title is-1">About Me</h1>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-content">
+      <div class="content">
+        Full Stack Web Development student. Currently working on learning Node.js. Have experience with HTML, CSS, Javascript, Materialize, Bulma and Web API usage like Watchmode and OMDB.
+      </div>
+    </div>
+  </div>
+  <div class= "columns">
+    <div class="column is-2 is-offset-1">
+      <h1 class="title is-1">Projects</h1>
+    </div>
+  </div>
   <section>
     <div class="tile is-ancestor">
       <div class="tile is-4 is-parent">
-        <article class="tile is-child notification is-info">
+        <article class="tile is-child notification is-dark">
           <p class="title">Movie Streaming Search Engine</p>
           <p class="subtitle">Search engine that informs you were a movie is streaming. Uses HTML, CSS, Materialize, Javascript and uses the Watchmode and OMDB API to pull up to date information.</p>
           <figure class="image is-4by3">
@@ -66,7 +77,7 @@
           </figure>
       </div>
       <div class="tile is-4 is-parent">
-        <article class="tile is-child notification is-info">
+        <article class="tile is-child notification is-dark">
           <p class="title">Javascript Coding Quiz</p>
           <p class="subtitle">10 questions on Javascript to be answered in 60 seconds. Test your knowledge! Built using HTML, CSS, and Javascript.</p>
           <figure class="image is-4by3">
@@ -74,7 +85,7 @@
           </figure>
       </div>
       <div class="tile is-4 is-parent">
-        <article class="tile is-child notification is-info">
+        <article class="tile is-child notification is-dark">
           <p class="title">Password Generator</p>
           <p class="subtitle">Random Password Generator that uses alerts to make a password between 8 and 128 characters in lenth. Built using HTML, CSS, and Javascript.</p>
           <figure class="image is-4by3">
@@ -84,27 +95,12 @@
     </div>
   </section>
  
-    <div id="myWork" class="flex text projects">
-        <p>
-            Here is my most recent project about redesigning exsisting code for a Marketing Firm.
-            <br>
-            <!-- <img src="./Horiseon-Screenshot.png" alt="Horiseon Website Work" /> -->
-            <br>
-            <a href="https://mmorrisonlk.github.io/smu-hw-marketing-refract/" > Horiseon Website Redesign </a>
-
-            <br>
-            Here is where I would put more projects. If I had any!
-        </p>
+  <div class= "columns">
+    <div id="contactInfo" class="column is-2 is-offset-1">
+      <h1 class="title is-1">Contact</h1>
     </div>
-    <div id="contactInfo" class="flex text projects">
-        <p>
-           Here is the best way to get in contact with me:
-           <br>
-           <a href="mailto: mmorrisonlk@gmail.com">Send Me Spyware</a>
-           <br>
-            <a href="https://github.com/mmorrisonlk">Gaze Upon My Lower Mid-Tier Coding Work</a>
-           <br>
-        </p>
+    <div class= "column is-8 is-offset-1">
+      <p>General Kenobi</p>
     </div>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
