@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <section class="hero is-dark is-small">
+  <section class="hero is-primary is-small">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
       <nav class="navbar">
@@ -26,13 +26,13 @@
           </div>
           <div id="navbarMenuHeroA" class="navbar-menu is-active">
             <div class="navbar-end">
-              <a class="navbar-item">
+              <a href="#about" class="navbar-item">
                 About
               </a>
-              <a class="navbar-item">
+              <a href="#projects" class="navbar-item">
                 Projects
               </a>
-              <a class="navbar-item">
+              <a href="#contact" class="navbar-item">
                 Contact
               </a>
               <span class="navbar-item">
@@ -49,7 +49,7 @@
       </nav>
     </div>
   </section>
-  <div class= "columns">
+  <div id="about"class= "columns">
     <div class="column is-2 is-offset-1">
       <h1 class="title is-1">About Me</h1>
     </div>
@@ -57,11 +57,12 @@
   <div class="card">
     <div class="card-content">
       <div class="content">
-        Full Stack Web Development student. Currently working on learning Node.js. Have experience with HTML, CSS, Javascript, Materialize, Bulma and Web API usage like Watchmode and OMDB.
+        Full Stack Web Development student. Currently working on learning Jest. Have experience with HTML, CSS, Javascript, Materialize, Bulma, Node.js and Web API usage like Watchmode and OMDB. Big fan of table top games including Warhammer 40K and Dungeons and Dragons. Let me know if you need a monk for your next D&D game. Also 900+ Raider.io healer in Shadowlands Season 1, so you can trust that you are in good hands (unless it's Plaguefall...)
+        <a href="https://raider.io/characters/us/ravencrest/Ori">Proof of Support Prowess</a>
       </div>
     </div>
   </div>
-  <div class= "columns">
+  <div id="projects" class= "columns">
     <div class="column is-2 is-offset-1">
       <h1 class="title is-1">Projects</h1>
     </div>
@@ -72,7 +73,7 @@
         <article class="tile is-child notification is-dark">
           <p class="title">Movie Streaming Search Engine</p>
           <p class="subtitle">Search engine that informs you were a movie is streaming. Uses HTML, CSS, Materialize, Javascript and uses the Watchmode and OMDB API to pull up to date information.</p>
-          <figure class="image is-4by3">
+          <figure class="image">
             <img src="assets/streamingSearchLandingPage.png">
           </figure>
       </div>
@@ -80,7 +81,7 @@
         <article class="tile is-child notification is-dark">
           <p class="title">Javascript Coding Quiz</p>
           <p class="subtitle">10 questions on Javascript to be answered in 60 seconds. Test your knowledge! Built using HTML, CSS, and Javascript.</p>
-          <figure class="image is-4by3">
+          <figure class="image">
             <img src="assets/codeQuizDeployed.png">
           </figure>
       </div>
@@ -88,19 +89,47 @@
         <article class="tile is-child notification is-dark">
           <p class="title">Password Generator</p>
           <p class="subtitle">Random Password Generator that uses alerts to make a password between 8 and 128 characters in lenth. Built using HTML, CSS, and Javascript.</p>
-          <figure class="image is-4by3">
+          <figure class="image">
             <img src="assets/passwordGenerator.png">
           </figure>
       </div>
     </div>
   </section>
  
-  <div class= "columns">
+  <div id="contact" class= "columns">
     <div id="contactInfo" class="column is-2 is-offset-1">
       <h1 class="title is-1">Contact</h1>
     </div>
-    <div class= "column is-8 is-offset-1">
-      <p>General Kenobi</p>
+    <div class="card column is-3 is-offset-6">
+      <div class="card-content">
+        <div class="content">
+          <p class="buttons">
+            <button class="button">
+              <a class="button is-secondary is-inverted" onclick="window.location.href='https://www.linkedin.com/in/mark-morrison-711bb1149/';">
+              <span class="icon">
+                  <i class="fa fa-linkedin"></i>
+                  </span>
+                <span>LinkedIn</span>
+              </a>
+            </button>
+            <button class="button">
+              <a class="button is-primary is-inverted" onclick="window.location.href='mailto:mmorrisonlk@gmail.com';">
+              <span class="icon">
+                  <i class="fa fa-envelope"></i>
+                  </span>
+                <span>Email</span>
+              </a>
+            </button>
+            <button class="button is-success">
+              <a class="button is-success" onclick="window.location.href='/assets/MmorrisonResume2021.pdf';" download>
+              <span class="icon is-small">
+                <i class="fa fa-file"></i>
+              </span>
+              <span>Resume</span>
+              </a>
+            </button>
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
